@@ -27,7 +27,7 @@ jobs:
             - v1-dependencies-
 
       - run: yarn install
-      - run: gatsby build
+      - run: yarn build
 
       - save_cache:
           paths:
