@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default () => (
   <Layout>
-    <h1>Velkommen til BRAIN NTNU</h1>
+    <h1>Arrangementer</h1>
     <p>Hello World</p>
   </Layout>
 );
