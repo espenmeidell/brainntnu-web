@@ -15,5 +15,8 @@
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
     "typography-theme-judah": "^0.15.10"
+  },
+  "devDependencies": {
+    "firebase-tools": "^5.1.1"
   }
 }
