@@ -1,12 +1,30 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+# BRAIN NTNU Web Page
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+## How to develop
+
+### Set up development environment
+
+Install Gatsby CLI on your machine:
+
 ```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
+$ sudo npm install --global gatsby-cli
 ```
 
-Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com/).
+### Normal development
 
-## Running in development
-`gatsby develop`
+Start the development server:
+
+```
+$ gatsby develop
+```
+
+Open your editor and start coding!
+
+## Guidelines
+
+1. Changes to the `master` branch are published automatically.
+   1. We work on `dev`, `feature/xxx` or `bug/xxx` branches.
+   2. Changes are merged into `master` using pull requests.
+2. Write clean code.
+3. Don't break the build.
+4. To learn about how to use GatsbyJS, check out the [tutorial](https://www.gatsbyjs.org/tutorial/part-zero/).
