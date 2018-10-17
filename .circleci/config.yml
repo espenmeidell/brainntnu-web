@@ -28,7 +28,7 @@ jobs:
 
       - run: yarn install
       - run: yarn build
-      - run: ./node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKENs
+      - run: ./node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKEN
 
       - save_cache:
           paths:
