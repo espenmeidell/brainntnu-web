@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "gatsby": "^2.0.0",
+    "gatsby-plugin-styled-components": "^3.0.0",
     "gatsby-plugin-typography": "^2.2.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-typography": "^0.16.13",
+    "styled-components": "^4.0.0",
     "typography": "^0.16.17",
     "typography-theme-judah": "^0.15.10"
   },
